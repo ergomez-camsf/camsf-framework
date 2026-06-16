@@ -20,4 +20,6 @@ Los ejemplos corresponden a escenarios reales modelados en la versión gráfica 
 - Posicionamiento en interiores
 - Actualización de posición
 
+The examples folder contains three representative CAMS-F models: tourism, delivery, and healthcare. Each example includes the textual DSL model, a graphical representation, and a short explanation of the generated context-aware behavior.
+
 Ver: study_cases.jpg
