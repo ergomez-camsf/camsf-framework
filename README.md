@@ -50,25 +50,18 @@ Definición formal del lenguaje para modelar sistemas context-aware.
 - Gramática textual
 - Parser y validación
 - Infraestructura generada con Xtext
-
-Ubicación:
-# CAMSF
-## Context-Aware Mobile System Framework
-
-CAMSF es un framework evolutivo basado en Model-Driven Development (MDD) para la construcción de sistemas móviles sensibles al contexto.
-
-El proyecto integra:
-
-- Modelado de contexto mediante DSL textual (Xtext)
-- DSL gráfico (Sirius)
-- Metamodelado (Ecore)
-- Transformaciones M2M / M2T (Xtend)
-- Generación automática de código
-- Integración con aplicaciones móviles Flutter
-
-El objetivo es facilitar la creación de aplicaciones móviles adaptativas mediante modelos de alto nivel.
-
----
+- 
+## 🧩 Estructura del Repositorio
+camsf-framework/
+├── docs/                Documentacion y figuras
+├── dsl/                 Definición Textual del DSL 
+├── metamodelos/         Metamodelos Ecore Iniciales y Finales
+├── transformaciones/    Transformaciones Model-to-Text 
+├── examples/            Ejemplos
+│   ├── tourism/         Ejemplo de turismo
+│   ├── delivery/        Ejemplo de Delivery
+│   └── healthcare/      Ejemplo de Healthcare
+└── README.md
 
 ## 🧩 Componentes Principales del Proyecto
 
@@ -131,18 +124,23 @@ Incluye:
 
 ---
 
-### ✔ Ejemplos Visuales
 
-Casos de estudio que muestran el uso del lenguaje:
-ejemplos/
+### Ejemplos incluidos
 
-Incluye escenarios como:
+```markdown
+## Ejemplos Incluidos
 
-- Control de mapas
-- Monitoreo de clima
-- Posicionamiento en interiores
+El repositorio incluye tres ejemplos representativos utilizados para ilustrar el uso del framework CAMSF:
 
----
+- Tourism: aplicación turística sensible al contexto basada en ubicación.
+- Delivery: aplicación de seguimiento de entregas mediante GPS y servicios de monitoreo.
+- Healthcare: aplicación de monitoreo de pacientes mediante sensores portables y alertas de emergencia.
+
+Cada ejemplo incluye:
+
+- Modelo DSL.
+- Representación gráfica.
+- Documentación descriptiva.
 
 ### ✔ Framework Flutter
 
@@ -180,6 +178,29 @@ Aplicación Flutter
 - Flutter SDK
 
 ---
+## Reproducción de los Ejemplos
+
+Para reproducir los ejemplos incluidos en el repositorio:
+
+1. Importar los proyectos en Eclipse Modeling.
+2. Cargar el metamodelo correspondiente.
+3. Abrir o crear un modelo DSL.
+4. Ejecutar las transformaciones Xtend.
+5. Generar los artefactos Flutter.
+6. Desplegar la aplicación generada.
+
+## Artefactos Generados
+
+El framework permite la generación automática de artefactos Flutter a partir de modelos de alto nivel.
+
+Los artefactos generados pueden incluir:
+
+- Pantallas Flutter.
+- Servicios sensibles al contexto.
+- Componentes de integración con Firebase.
+- Estructuras de navegación.
+- Lógica de adaptación basada en contexto.
+
 ## 🎓 Contribución Principal
 La principal contribución de esta investigación es la definición y validación de un enfoque Model-Driven Development para sistemas móviles sensibles al contexto, mediante la creación de un DSL específico de dominio, su metamodelo asociado y un proceso automatizado de transformaciones que permite la generación de aplicaciones Flutter context-aware.
 
