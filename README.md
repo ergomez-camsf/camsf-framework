@@ -13,6 +13,8 @@ El proyecto integra:
 - Integración con aplicaciones móviles Flutter
 
 El objetivo es facilitar la creación de aplicaciones móviles adaptativas mediante modelos de alto nivel.
+<img width="1774" height="887" alt="camsf representative image" src="https://github.com/user-attachments/assets/22938240-39d7-40b3-b8e1-a998b49f9419" />
+
 
 ---
 ## 🧭 Arquitectura Conceptual de CAMSF
