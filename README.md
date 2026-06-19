@@ -32,7 +32,8 @@ Transformaciones Xtend (M2T)
         ↓
 Generación de código Flutter
 ```
-<img width="1024" height="1536" alt="CAMS architecture for intelligent transportation systems" src="https://github.com/user-attachments/assets/d29f84f9-6e45-44e7-91a8-2f42bdb1d28a" />
+![Uploading arquitectura conceptual de CAMSF.png…]()
+
 
 ---
 El repositorio representa la evolución del DSL CAMS:
