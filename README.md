@@ -32,7 +32,8 @@ Transformaciones Xtend (M2T)
         ↓
 Generación de código Flutter
 ```
-![Uploading arquitectura conceptual de CAMSF.png…]()
+<img width="1672" height="941" alt="arquitectura conceptual de CAMSF" src="https://github.com/user-attachments/assets/ce6a69bd-0d06-425c-8f44-2d5e147711fd" />
+
 
 
 ---
