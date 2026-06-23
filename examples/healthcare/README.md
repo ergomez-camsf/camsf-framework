@@ -33,3 +33,9 @@ execute PatientMap
 ## Arquitectura conceptual
 
 ![Healthcare Monitoring](healthcare1.png)
+
+## Flujo de transformación
+
+DSL → Modelo CAMS-F → Código Flutter/Firebase
+
+Para más detalles consulte transformations.md.
