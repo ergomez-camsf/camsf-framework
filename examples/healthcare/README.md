@@ -28,3 +28,7 @@ execute EmergencyAlert
 rule ShowPatientLocation
 when Patient.PatientLocation is available
 execute PatientMap
+
+## Arquitectura conceptual
+
+![Healthcare Monitoring](healthcare1.png)
