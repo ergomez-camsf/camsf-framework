@@ -28,6 +28,7 @@ execute EmergencyAlert
 rule ShowPatientLocation
 when Patient.PatientLocation is available
 execute PatientMap
+```
 
 ## Arquitectura conceptual
 
