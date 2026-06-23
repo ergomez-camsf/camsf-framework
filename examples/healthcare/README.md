@@ -1,9 +1,30 @@
-# Healthcare Example
+# Healthcare Monitoring
 
-This example models a context-aware mobile application for patient monitoring.
+## Descripción
 
-The model combines location and health-related contextual information to trigger emergency alerts and visualize the patient location.
+Este ejemplo ilustra una aplicación móvil sensible al contexto para monitoreo de pacientes mediante sensores biométricos.
 
-Artifacts:
-- healthcare.dsl: CAMS-F textual model.
-- healthcare.png: graphical representation of the example model.
+## Modelo DSL
+
+```cams
+application HealthcareMonitoringApp
+
+awareObject Patient category User
+
+contextFeature PatientLocation value GPS relevance High
+contextFeature HeartRate value GenericObject relevance High
+contextFeature Connectivity value Network relevance Medium
+
+sensor GPS sensorType GPS execution Active configuration Active
+sensor WearableSensor sensorType ProgramMonitory execution Active configuration Active
+
+service EmergencyAlert serviceType Firebase
+service PatientMap serviceType Google_Maps
+
+rule DetectEmergency
+when Patient.HeartRate is Critical
+execute EmergencyAlert
+
+rule ShowPatientLocation
+when Patient.PatientLocation is available
+execute PatientMap
