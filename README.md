@@ -122,13 +122,15 @@ metamodelos/
 ### ✔ Transformaciones (Xtend)
 
 
-El framework incluye transformaciones Modelo a Texto (M2T) implementadas mediante Xtend.
+El framework incluye transformaciones Modelo-a-Texto (M2T) implementadas mediante Xtend.
 
 Ubicación:
 
+```text
 transformations/
 ├── generator_Xtend.xtend
 └── README.md
+```
 
 La transformación recorre los modelos generados a partir del DSL y produce artefactos Dart/Flutter mediante el mecanismo fsa.generateFile(...) provisto por Xtext.
 
