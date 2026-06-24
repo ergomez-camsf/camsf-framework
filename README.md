@@ -1,20 +1,20 @@
 # CAMSF
-## Context-Aware Mobile System Framework
+Context-Aware Mobile System Framework
 
 CAMSF es un framework evolutivo basado en Model-Driven Development (MDD) para la construcción de sistemas móviles sensibles al contexto.
 
 El proyecto integra:
 
-- Modelado de contexto mediante DSL textual (Xtext)
-- DSL gráfico (Sirius)
-- Metamodelado (Ecore)
-- Transformaciones M2M / M2T (Xtend)
-- Generación automática de código
-- Integración con aplicaciones móviles Flutter
+Modelado de contexto mediante DSL textual (Xtext)
+DSL gráfico (Sirius)
+Metamodelado (Ecore)
+Transformaciones M2M / M2T (Xtend)
+Generación automática de código
+Integración con aplicaciones móviles Flutter
 
 El objetivo es facilitar la creación de aplicaciones móviles adaptativas mediante modelos de alto nivel.
-<img width="1774" height="887" alt="camsf representative image" src="https://github.com/user-attachments/assets/22938240-39d7-40b3-b8e1-a998b49f9419" />
 
+Nota: Se ha optado por documentar el framework mediante los artefactos reales desarrollados durante la investigación (DSL, metamodelos, transformaciones y ejemplos), evitando incluir diagramas conceptuales que no formen parte de la tesis doctoral o de la implementación validada experimentalmente.
 
 ---
 ## 🧭 Arquitectura Conceptual de CAMSF
