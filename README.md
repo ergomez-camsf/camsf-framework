@@ -101,18 +101,20 @@ Incluye:
 ### ✔ Metamodelos (Ecore)
 
 Se incluyen dos versiones del metamodelo:
+
+```text
 metamodelos/
-
 ├── inicial/
-│ ├── cams_inicial.aird
-│ ├── cams_inicial.model
-│ └── cams_inicial.jpg
-
+│   ├── cams_inicial.aird
+│   ├── cams_inicial.model
+│   └── cams_inicial.jpg
+│
 └── final/
-├── cams_final.ecore
-├── cams_final.aird
-├── cams_final.genmodel
-└── cams_final.jpg
+    ├── cams_final.ecore
+    ├── cams_final.aird
+    ├── cams_final.genmodel
+    └── cams_final.jpg
+```
 
 - **Inicial:** concepción temprana del DSL gráfico.
 - **Final:** versión refinada del metamodelo utilizada en el framework.
