@@ -35,6 +35,9 @@ Modelos de ejemplo
 Transformaciones Xtend
         ↓
 Artefactos Dart / Flutter
+```text
+
+```markdown
 
 ---
 El repositorio representa la evolución del DSL CAMS:
