@@ -116,18 +116,32 @@ metamodelos/
 ![Metamodelo CAMS](metamodel/final/cams_final.jpg)
 
 ---
-
 ### ✔ Transformaciones (Xtend)
 
-Transformaciones automáticas para generación de código.
-transformaciones/
 
-Incluye:
+El framework incluye transformaciones Modelo a Texto (M2T) implementadas mediante Xtend.
 
-- Transformaciones M2T
-- Generación automática desde modelos DSL.
+Ubicación:
 
----
+transformations/
+├── generator_Xtend.xtend
+└── README.md
+
+La transformación recorre los modelos generados a partir del DSL y produce artefactos Dart/Flutter mediante el mecanismo fsa.generateFile(...) provisto por Xtext.
+
+Flujo de transformación:
+
+DSL CAMS-F
+        ↓
+Modelo EMF/Xtext
+        ↓
+Transformación Xtend
+        ↓
+Código Dart/Flutter
+
+Entre los artefactos derivados se incluyen componentes de monitoreo contextual, integración con Google Maps, servicios de notificación y estructuras base para aplicaciones Flutter sensibles al contexto.
+
+
 
 
 ### Ejemplos incluidos
