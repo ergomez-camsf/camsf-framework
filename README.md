@@ -58,16 +58,19 @@ Definición formal del lenguaje para modelar sistemas context-aware.
 - Infraestructura generada con Xtext
 - 
 ## 🧩 Estructura del Repositorio
+
+```text
 camsf-framework/
-├── docs/                Documentacion y figuras
-├── dsl/                 Definición Textual del DSL 
-├── metamodelos/         Metamodelos Ecore Iniciales y Finales
-├── transformaciones/    Transformaciones Model-to-Text 
-├── examples/            Ejemplos
+├── docs/                Documentación y figuras
+├── dsl/                 Definición textual del DSL
+├── metamodelos/         Metamodelos Ecore iniciales y finales
+├── transformaciones/    Transformaciones Modelo-a-Texto (Xtend)
+├── examples/
 │   ├── tourism/         Ejemplo de turismo
-│   ├── delivery/        Ejemplo de Delivery
-│   └── healthcare/      Ejemplo de Healthcare
+│   ├── delivery/        Ejemplo de logística y entregas
+│   └── healthcare/      Ejemplo de monitoreo de pacientes
 └── README.md
+```
 
 ## 🧩 Componentes Principales del Proyecto
 
