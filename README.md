@@ -18,7 +18,6 @@ Nota: Se ha optado por documentar el framework mediante los artefactos reales de
 
 ---
 
-```markdown
 ## 🧭 Arquitectura Conceptual de CAMSF
 
 El framework sigue un flujo dirigido por modelos (MDD) basado en los artefactos desarrollados durante la investigación:
@@ -35,10 +34,12 @@ Modelos de ejemplo
 Transformaciones Xtend
         ↓
 Artefactos Dart / Flutter
-```text
+```
 
-```markdown
+El repositorio representa la evolución del DSL CAMS:
 
+- Versión inicial: exploración conceptual del dominio.
+- Versión final: refinamiento del metamodelo y validación experimental.
 ---
 El repositorio representa la evolución del DSL CAMS:
 
