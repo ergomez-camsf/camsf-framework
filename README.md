@@ -17,24 +17,24 @@ El objetivo es facilitar la creación de aplicaciones móviles adaptativas media
 Nota: Se ha optado por documentar el framework mediante los artefactos reales desarrollados durante la investigación (DSL, metamodelos, transformaciones y ejemplos), evitando incluir diagramas conceptuales que no formen parte de la tesis doctoral o de la implementación validada experimentalmente.
 
 ---
+
+```markdown
 ## 🧭 Arquitectura Conceptual de CAMSF
 
-El framework sigue un flujo dirigido por modelos (MDD):
+El framework sigue un flujo dirigido por modelos (MDD) basado en los artefactos desarrollados durante la investigación:
 
 ```text
 DSL textual (Xtext)
         ↓
-Metamodelo (Ecore / Sirius)
+Metamodelo (Ecore)
         ↓
-Modelos de ejemplo (Study Cases)
+Representación gráfica (Sirius)
         ↓
-Transformaciones Xtend (M2T)
+Modelos de ejemplo
         ↓
-Generación de código Flutter
-```
-<img width="1672" height="941" alt="arquitectura conceptual de CAMSF" src="https://github.com/user-attachments/assets/ce6a69bd-0d06-425c-8f44-2d5e147711fd" />
-
-
+Transformaciones Xtend
+        ↓
+Artefactos Dart / Flutter
 
 ---
 El repositorio representa la evolución del DSL CAMS:
