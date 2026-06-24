@@ -134,15 +134,18 @@ transformations/
 
 La transformación recorre los modelos generados a partir del DSL y produce artefactos Dart/Flutter mediante el mecanismo fsa.generateFile(...) provisto por Xtext.
 
+
 Flujo de transformación:
 
+```text
 DSL CAMS-F
-        ↓
+      ↓
 Modelo EMF/Xtext
-        ↓
+      ↓
 Transformación Xtend
-        ↓
+      ↓
 Código Dart/Flutter
+```
 
 Entre los artefactos derivados se incluyen componentes de monitoreo contextual, integración con Google Maps, servicios de notificación y estructuras base para aplicaciones Flutter sensibles al contexto.
 
