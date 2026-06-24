@@ -42,7 +42,7 @@ El repositorio representa la evolución del DSL CAMS:
 - Versión inicial: exploración conceptual del dominio.
 - Versión final: refinamiento del metamodelo y validación experimental.
 
-## 📚 Relación con la Tesis Doctoral
+## 📚 Tesis Doctoral
 
 Este repositorio contiene el material complementario utilizado en la evaluación de la tesis doctoral, incluyendo la definición del DSL, metamodelos, transformaciones y ejemplos utilizados para validar el enfoque propuesto.
 El repositorio refleja la evolución del DSL CAMS desde su concepción inicial hasta la versión validada experimentalmente.
