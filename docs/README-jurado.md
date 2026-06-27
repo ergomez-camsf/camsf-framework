@@ -60,7 +60,7 @@ Aplicación Flutter
 
 ---
 
-## Relación con la Tesis
+## Material complementario de la la Tesis
 
 Este repositorio constituye el material complementario utilizado para respaldar los resultados presentados en la tesis doctoral. Los artefactos incluidos corresponden a las distintas etapas de evolución del framework y fueron utilizados durante la validación experimental del enfoque.
 
